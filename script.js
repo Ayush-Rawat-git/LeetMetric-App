@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
             //statsContainer.classList.add("hidden");
 
             // const response = await fetch(url);
-            const proxyUrl = 'https://cors-anywhere.herokuapp.com/' 
+            const proxyUrl = 'https://corsproxy.io/?';
             const targetUrl = 'https://leetcode.com/graphql/';
             
             const myHeaders = new Headers();
